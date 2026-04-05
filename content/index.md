@@ -6,7 +6,7 @@ title: fluxer-swift
 
 `fluxer-swift` is an API wrapper for [Fluxer](https://fluxer.app), meant to offer a good developer experience while still allowing some flexibility.
 ## Get started
-You can see instructions to [[setup-project|get started here]].
+You can see instructions to [[1-setup-project|get started here]].
 ## Support
 You can get support in our Fluxer community: https://fluxer.gg/03Bgm2iW. You can also open a [GitHub issue](https://github.com/nin0-dev/fluxer-swift/issues/new) if you'd prefer that.
 ## Source code

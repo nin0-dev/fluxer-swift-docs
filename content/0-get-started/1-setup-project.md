@@ -1,5 +1,5 @@
 ---
-order: "300"
+title: Setup your project
 ---
 ## Prerequisites
 To get started, you'll want:

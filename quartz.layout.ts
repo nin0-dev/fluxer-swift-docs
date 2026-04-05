@@ -39,7 +39,11 @@ export const defaultContentPageLayout: PageLayout = {
                 { Component: Component.ReaderMode() },
             ],
         }),
-        Component.Explorer()
+        Component.Explorer({
+            sortFn: (a, b) => {
+                return a.slugSegment.localeCompare(b.slugSegment);
+            }
+        })
     ],
     right: [
         Component.Graph(),
@@ -64,7 +68,11 @@ export const defaultListPageLayout: PageLayout = {
             ],
         }),
 
-        Component.Explorer()
+        Component.Explorer({
+            sortFn: (a, b) => {
+                return a.slugSegment.localeCompare(b.slugSegment);
+            }
+        })
     ],
     right: [],
 }

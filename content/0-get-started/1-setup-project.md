@@ -41,3 +41,5 @@ let package = Package(
     ]
 )
 ```
+
+With that done, you can now [[100-create-bot|create your bot]]!

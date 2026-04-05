@@ -87,7 +87,8 @@ const config: QuartzConfig = {
             Plugin.Favicon(),
             Plugin.NotFoundPage(),
             // Comment out CustomOgImages to speed up build time
-            Plugin.CustomOgImages(),
+            // @ts-ignore
+            ...[process.env.PROD ? Plugin.CustomOgImages() : null].filter(Boolean),
         ],
     },
 }
